@@ -21,7 +21,6 @@ find_package(nav2_msgs REQUIRED)
 find_package(rclcpp_action REQUIRED)
 
 add_executable(navigation src/mission_main.cpp src/mission.cpp)
-target_link_libraries(navigation)
 ament_target_dependencies(navigation rclcpp geometry_msgs std_msgs nav_msgs nav2_msgs rclcpp_action)
 
 install(TARGETS
@@ -30,7 +29,7 @@ install(TARGETS
 )
 
 install(
-  DIRECTORY config launch models urdf worlds
+  DIRECTORY
   DESTINATION share/${PROJECT_NAME}
 )
 

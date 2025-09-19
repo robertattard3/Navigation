@@ -1,0 +1,10 @@
+/home/student/41068_ws/src/Navigation/build/CMakeFiles/uninstall.dir
+/home/student/41068_ws/src/Navigation/build/CMakeFiles/search_and_rescue_uninstall.dir
+/home/student/41068_ws/src/Navigation/build/CMakeFiles/navigation.dir
+/home/student/41068_ws/src/Navigation/build/CMakeFiles/test.dir
+/home/student/41068_ws/src/Navigation/build/CMakeFiles/edit_cache.dir
+/home/student/41068_ws/src/Navigation/build/CMakeFiles/rebuild_cache.dir
+/home/student/41068_ws/src/Navigation/build/CMakeFiles/list_install_components.dir
+/home/student/41068_ws/src/Navigation/build/CMakeFiles/install.dir
+/home/student/41068_ws/src/Navigation/build/CMakeFiles/install/local.dir
+/home/student/41068_ws/src/Navigation/build/CMakeFiles/install/strip.dir
