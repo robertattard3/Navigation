@@ -799,7 +799,13 @@ CMakeFiles/navigation.dir/src/mission.cpp.o: ../src/mission.cpp \
   /opt/ros/humble/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/set_bool.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 CMakeFiles/navigation.dir/src/mission_main.cpp.o: ../src/mission_main.cpp \
   /usr/include/stdc-predef.h \
@@ -1599,10 +1605,20 @@ CMakeFiles/navigation.dir/src/mission_main.cpp.o: ../src/mission_main.cpp \
   /opt/ros/humble/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/set_bool.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.hpp \
+  /opt/ros/humble/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
 ../src/mission_main.cpp:
+
+/opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp:
+
+/opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
 
@@ -1752,6 +1768,8 @@ CMakeFiles/navigation.dir/src/mission_main.cpp.o: ../src/mission_main.cpp \
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
 
+/opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp:
+
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp:
@@ -1797,6 +1815,8 @@ CMakeFiles/navigation.dir/src/mission_main.cpp.o: ../src/mission_main.cpp \
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp:
+
+/opt/ros/humble/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp:
 
@@ -2956,6 +2976,8 @@ CMakeFiles/navigation.dir/src/mission_main.cpp.o: ../src/mission_main.cpp \
 
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
 
+/opt/ros/humble/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
@@ -3111,6 +3133,8 @@ CMakeFiles/navigation.dir/src/mission_main.cpp.o: ../src/mission_main.cpp \
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
+
+/opt/ros/humble/include/std_srvs/std_srvs/srv/set_bool.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
 

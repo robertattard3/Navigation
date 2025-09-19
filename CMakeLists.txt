@@ -21,7 +21,7 @@ find_package(nav2_msgs REQUIRED)
 find_package(rclcpp_action REQUIRED)
 
 add_executable(navigation src/mission_main.cpp src/mission.cpp)
-ament_target_dependencies(navigation rclcpp geometry_msgs std_msgs nav_msgs nav2_msgs rclcpp_action)
+ament_target_dependencies(navigation rclcpp geometry_msgs std_msgs nav_msgs nav2_msgs rclcpp_action std_srvs)
 
 install(TARGETS
   navigation

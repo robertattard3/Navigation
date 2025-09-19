@@ -9,6 +9,8 @@
 #include "nav_msgs/msg/odometry.hpp"
 #include <nav2_msgs/action/navigate_to_pose.hpp>
 #include <geometry_msgs/msg/point.hpp>
+#include "std_srvs/srv/set_bool.hpp"
+
 
 
 using NavigateToPose = nav2_msgs::action::NavigateToPose;
@@ -21,9 +23,18 @@ public:
 
 private:
     // Add a new goal (position)
-    void sendGoal(const geometry_msgs::msg::Point & msg);
+    void setGoal(const geometry_msgs::msg::Point & msg);
+    void serviceCall(const std::shared_ptr<std_srvs::srv::SetBool::Request> req,
+                 std::shared_ptr<std_srvs::srv::SetBool::Response> resp);
+    void cancel_active_goal();
     rclcpp_action::Client<NavigateToPose>::SharedPtr client_;
     rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr goalPoint;
+    rclcpp::Service<std_srvs::srv::SetBool>::SharedPtr missionService;
+    std::shared_ptr<GoalHandleNavigateToPose> current_goal_handle_;
+    std::atomic_bool active_{false};
+    NavigateToPose::Goal goal;
+    bool has_goal_;
+
 
 };
 
