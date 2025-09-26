@@ -45,6 +45,13 @@ void Mission::serviceCall(const std::shared_ptr<std_srvs::srv::SetBool::Request>
       return;
     }
 
+    try {
+      auto fut = client_->async_cancel_all_goals();
+      (void)fut.wait_for(std::chrono::milliseconds(800));  // short grace; don't block long
+    } catch (const std::exception &e) {
+      RCLCPP_WARN(get_logger(), "async_cancel_all_goals threw: %s", e.what());
+    }
+
     RCLCPP_INFO(get_logger(), "Navigating to goal: x=%.2f, y=%.2f",
                 goal.pose.pose.position.x, goal.pose.pose.position.y);
 
